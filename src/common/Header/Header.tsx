@@ -32,10 +32,9 @@ const Header = ({}: HeaderProps) => {
   const isDarkMode = colorMode === "dark";
 
 
-  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4} he>
+      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box sx={{paddingTop: '10px'}}>
             <Image src={logo} alt="droppyjs logo" height={'40px'} width={'140px'} />
