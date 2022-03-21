@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-      <link rel="icon" type="image/png" href="/droppy.png" />
+      <link rel="icon" type="image/png" href="/images/droppy.png" />
       </Head>
       <DefaultSeo
         description="droppy is a self-hosted file storage server with a web interface and capabilities to edit files and view media directly in the browser. It is particularly well-suited to be run on low-end hardware like the Raspberry Pi."
