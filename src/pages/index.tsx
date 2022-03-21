@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                 low-end hardware like the Raspberry Pi.
               </Text>
               <br />
-              <Button as="a" colorScheme={"blue"} href="https://github.com/droppyjs/droppy" >View on GitHub</Button>
+              <Button as="a" colorScheme={"brand"} href="https://github.com/droppyjs/droppy" >View on GitHub</Button>
             </GridItem>
             <GridItem>
               <Image src={goingUp} alt="a" />
