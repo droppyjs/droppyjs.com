@@ -24,7 +24,7 @@ import { HeaderProps } from "./Header.types";
 
 import { SiTwitter, SiGithub } from "react-icons/si";
 
-import logo from "../../../public/logo.svg";
+import logo from "../../../public/images/logo.svg";
 
 const Header = ({}: HeaderProps) => {
   const { colorMode, toggleColorMode } = useColorMode();
